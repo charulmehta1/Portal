@@ -1,0 +1,42 @@
+
+body{
+    box-sizing: border-box;
+     border: 1px solid #ccc;
+  }
+  
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+    border: none
+  }
+  
+  table td, #customers th {
+    padding: 20px;
+  }
+  
+  table tr:nth-child(odd){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 16px;
+    padding-bottom: 18px;
+    text-align: left;
+    background-color: #331763;
+    color: white;
+  }
+  
+  td:first-child,
+  th:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  td:last-child,
+  th:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+  .logoutLblPos{
+    position:fixed;
+    right:10px;
+    top:20px;
+ }
